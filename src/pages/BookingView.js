@@ -211,9 +211,8 @@ class BookingView extends React.Component {
                 </div>
 
                 <Button onClick={this.onClick} type="primary" block>Chọn</Button>
-                <Button onClick={this.onClickPSID} type="primary" block>PSID</Button>
-
-                <p>Mess: {JSON.stringify(this.state.thread_context)}</p>
+                {/*<Button onClick={this.onClickPSID} type="primary" block>PSID</Button>*/}
+                {/*<p>Mess: {JSON.stringify(this.state.thread_context)}</p>*/}
             </div>
         )
     }
