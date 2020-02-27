@@ -1,0 +1,44 @@
+.trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.trigger:hover {
+  color: #1890ff;
+}
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+.content-wrapper {
+  margin: 24px 16px;
+  padding: 34px;
+  background: #fff;
+  min-height: 280
+} 
+
+.content-body {
+  padding-top: 20px;
+}
+
+.form-item {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.btnTest {
+  margin-left: 40px
+}
+
+.logo-admin {
+  text-align: center;
+  line-height: 2.2;
+  color: #fff;
+  font-weight: 800;
+}
