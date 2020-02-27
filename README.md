@@ -1,5 +1,5 @@
 
-# VNIT GUI
+# CBSYS VIEW
 
 ## How to run
 
