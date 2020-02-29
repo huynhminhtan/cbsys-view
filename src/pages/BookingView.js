@@ -114,6 +114,10 @@ class BookingView extends React.Component {
         });
     }
 
+    disabledDate = (current) => {
+        return current && current < moment().endOf('day');
+    };
+
     onClick = async () => {
         // this.getData();
         // this.onClickPSID();
@@ -207,7 +211,7 @@ class BookingView extends React.Component {
         return (
             <div style={{margin: '0 auto', width: 300}}>
                 <div style={{marginBottom: 10, width: 300, border: '1px solid #d9d9d9', borderRadius: 4}}>
-                    <Calendar fullscreen={false} onSelect={this.onSelect}/>
+                    <Calendar disabledDate={this.disabledDate} fullscreen={false} onSelect={this.onSelect}/>
                 </div>
 
                 <Button onClick={this.onClick} type="primary" block>Chọn</Button>
